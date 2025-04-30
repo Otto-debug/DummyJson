@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Virtual environment
+.venv/
+venv/
+ENV/
+env/
+
+# PyCharm / VSCode
+.idea/
+.vscode/
+
+# Logs and reports
+logs/
+reports/
+*.log
+
+# Allure results
+allure-results/
+allure-report/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Test cache
+.pytest_cache/
+
+# dotenv (если решишь использовать)
+.env
