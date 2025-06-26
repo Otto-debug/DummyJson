@@ -1,3 +1,6 @@
+import gevent.monkey
+gevent.monkey.patch_all()
+
 import pytest
 import logging
 
