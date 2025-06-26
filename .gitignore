@@ -25,6 +25,9 @@ reports/
 allure-results/
 allure-report/
 
+# Load_tests
+reports/load_report
+
 # OS-specific
 .DS_Store
 Thumbs.db
@@ -32,5 +35,5 @@ Thumbs.db
 # Test cache
 .pytest_cache/
 
-# dotenv (если решишь использовать)
+# dotenv
 .env
