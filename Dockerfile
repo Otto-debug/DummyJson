@@ -9,7 +9,8 @@ COPY . .
 
 # Обновляем pip и устанавливаем зависимости
 RUN pip install --upgrade pip \
-    && pip install -r requirements.txt
+    && pip install -r requirements.txt \
+    && pip install --upgrade urllib3 requests certifi
 
 # Указываем команду, которая будет запускаться по умолчанию
 # Например, запуск функциональных тестов
